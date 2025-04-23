@@ -237,7 +237,7 @@ class Fighter():
             self.no_chao = True
 
     def play_death_animation(self):
-        # Aqui você pode definir a animação de morte
+        # definir a animação de morte
         print("Animação de morte do personagem está sendo exibida!")
         pg.draw.rect(screen, (255, 0, 0), (self.x, self.y, self.width, self.height))  # Exemplo de animação
 
